@@ -25,6 +25,7 @@ parts:
       - LDFLAGS: -L/snap/gnome-42-2204-sdk/current/usr/include
     build-packages:
       - libssl-dev
+      - zlib1g-dev
     override-pull: |
       craftctl default
       patch -p1 < $CRAFT_PROJECT_DIR/read-it-later.patch
