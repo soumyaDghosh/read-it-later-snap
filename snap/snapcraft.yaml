@@ -26,6 +26,8 @@ parts:
     build-packages:
       - libssl-dev
       - zlib1g-dev
+    build-snaps:
+      - webkitgtk-6-gnome-2204-sdk/latest/stable
     override-pull: |
       craftctl default
       patch -p1 < $CRAFT_PROJECT_DIR/read-it-later.patch
