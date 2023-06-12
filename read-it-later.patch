@@ -1,0 +1,23 @@
+diff -Naur a/data/com.belmoussaoui.ReadItLater.desktop.in.in b/data/com.belmoussaoui.ReadItLater.desktop.in.in
+--- a/data/com.belmoussaoui.ReadItLater.desktop.in.in	2023-06-13 02:19:05.631709854 +0530
++++ b/data/com.belmoussaoui.ReadItLater.desktop.in.in	2023-06-13 02:21:40.023849589 +0530
+@@ -7,7 +7,7 @@
+ Categories=GNOME;GTK;Utility;Network;
+ Keywords=GNOME;GTK;Wallabag;Web;Article;Offline;
+ # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+-Icon=@icon@
++Icon=snap.read-it-later.@icon@
+ StartupNotify=true
+ # Translators: Do NOT translate or transliterate this text (these are enum types)!
+ X-Purism-FormFactor=Workstation;Mobile;
+diff -Naur a/data/com.belmoussaoui.ReadItLater.metainfo.xml.in.in b/data/com.belmoussaoui.ReadItLater.metainfo.xml.in.in
+--- a/data/com.belmoussaoui.ReadItLater.metainfo.xml.in.in	2023-06-13 02:19:30.623723845 +0530
++++ b/data/com.belmoussaoui.ReadItLater.metainfo.xml.in.in	2023-06-13 02:21:22.203827421 +0530
+@@ -2,6 +2,7 @@
+ <!-- Bilal Elmoussaoui 2019 <bilal.elmoussaoui@gnome.org> -->
+ <component type="desktop-application">
+   <id>@app-id@</id>
++  <icon type="stock">snap.read-it-later.@app-id@</icon>
+   <metadata_license>CC0-1.0</metadata_license>
+   <name>Read It Later</name>
+   <summary>Save and read web articles</summary>
