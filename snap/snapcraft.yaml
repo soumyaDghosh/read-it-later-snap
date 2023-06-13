@@ -79,3 +79,5 @@ apps:
     command: usr/bin/read-it-later
     extensions: [ gnome ]
     common-id: com.belmoussaoui.ReadItLater
+    environment:
+      LD_LIBRARY_PATH: $SNAP/webkitgtk-platform/usr/lib/$SNAPCRAFT_ARCH_TRIPLET:$SNAP/webkitgtk-platform/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/webkitgtk-6.0:$LD_LIBRARY_PATH
