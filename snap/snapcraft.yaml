@@ -85,3 +85,7 @@ apps:
     common-id: com.belmoussaoui.ReadItLater
     environment:
       LD_LIBRARY_PATH: $SNAP/webkitgtk-platform/usr/lib/$SNAPCRAFT_ARCH_TRIPLET:$SNAP/webkitgtk-platform/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/webkitgtk-6.0:$LD_LIBRARY_PATH
+    plugs:
+      - network
+      - network-status
+      - network-bind
