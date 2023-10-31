@@ -14,7 +14,7 @@ parts:
     # See 'snapcraft plugins'
     plugin: meson
     source: https://gitlab.gnome.org/World/read-it-later.git
-    source-tag: '0.4.0'
+    source-tag: '0.5.0'
     source-depth: 1
     meson-parameters:
       - --prefix=/snap/read-it-later/current/usr
@@ -65,7 +65,7 @@ parts:
       done
     override-prime: |
       echo 'Skip Prime'
-      
+
 
 plugs:
   webkitgtk-6-gnome-2204:
